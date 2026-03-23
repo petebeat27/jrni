@@ -1,1 +1,21 @@
+body {
+font-family: Arial, sans-serif;
+max-width: 700px;
+margin: auto;
+padding: 20px;
+line-height: 1.6;
+}
 
+header {
+margin-bottom: 40px;
+}
+
+nav a {
+margin-right: 15px;
+text-decoration: none;
+color: black;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
