@@ -1,0 +1,16 @@
+backend:
+name: github
+repo: petebeat27/1959-6
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+- name: "posts"
+  label: "Posts"
+  folder: "posts"
+  create: true
+  slug: "{{slug}}"
+  fields:
+  - { label: "Title", name: "title", widget: "string" }
+  - { label: "Body", name: "body", widget: "text" }
